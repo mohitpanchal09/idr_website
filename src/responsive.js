@@ -50,4 +50,5 @@ export const mobile7 = (props)=>{
         ${props}
     }
     `;
-};
+}
+;
