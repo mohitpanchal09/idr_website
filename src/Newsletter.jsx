@@ -1,4 +1,4 @@
-import { IoMdSend } from 'react-icons/io';
+import { Send } from '@material-ui/icons';
 import styled from 'styled-components';
 import { mobile } from './responsive';
 import React from 'react'
@@ -54,7 +54,7 @@ const Newsletter = () => {
         <InputContainer>
         <Input placeholder='Your email' />
         <Button>
-            <IoMdSend style={{fontSize:"20px"}}/>
+            <Send style={{fontSize:"20px"}}/>
         </Button>
         </InputContainer>
     </Container>
