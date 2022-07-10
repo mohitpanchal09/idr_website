@@ -123,11 +123,11 @@ const Footer = () => {
     <Left>
         <Logo>IDR</Logo>
         <List>
-            <ListItem>MEN</ListItem>
-            <ListItem>WOMEN</ListItem>
-            <ListItem>KIDS</ListItem>
-            <ListItem>FORMAL</ListItem>
-            <ListItem>INDIAN</ListItem>
+            <ListItem>About US</ListItem>
+            <ListItem>Contact us</ListItem>
+            <ListItem>Privacy Policy</ListItem>
+            <ListItem>Terms & Conditions</ListItem>
+            <ListItem>Services</ListItem>
             
         </List>
         
