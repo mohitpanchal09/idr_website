@@ -13,7 +13,7 @@ import Industries from '../components/Industries'
 
 
 
-const Home = () => {
+const Home2 = () => {
   return (
     <div>
         <Navbar />
@@ -27,4 +27,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Home2
