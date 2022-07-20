@@ -1,6 +1,6 @@
-import Navbar from "./components/Navbar";
+// import Navbar from "./components/Navbar";
 import Home2 from "./pages/Home2";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
 import "./style.css";
 
 function App() {
