@@ -59,3 +59,17 @@ export const mobile8 = (props)=>{
     `;
 };
 
+export const mobile9 = (props)=>{
+    return css`
+    @media only screen and (max-width:672px){
+        ${props}
+    }
+    `;
+};
+export const mobile10 = (props)=>{
+    return css`
+    @media only screen and (max-width:1000){
+        ${props}
+    }
+    `;
+};
