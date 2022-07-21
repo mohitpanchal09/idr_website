@@ -54,7 +54,15 @@ background-color: #${props=>props.color};
 display:flex;
 align-items:center;
 justify-content:center;
+cursor:pointer;
 margin-right:20px;
+transition: all 0.5s ease;
+&:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+}
+  
+  
 `
 
 const Center =styled.div`
@@ -123,11 +131,11 @@ const Footer = () => {
     <Left>
         <Logo>IDR</Logo>
         <List>
-            <ListItem>About US</ListItem>
-            <ListItem>Contact us</ListItem>
-            <ListItem>Privacy Policy</ListItem>
-            <ListItem>Terms & Conditions</ListItem>
-            <ListItem>Services</ListItem>
+            <ListItem>MEN</ListItem>
+            <ListItem>WOMEN</ListItem>
+            <ListItem>KIDS</ListItem>
+            <ListItem>FORMAL</ListItem>
+            <ListItem>INDIAN</ListItem>
             
         </List>
         
