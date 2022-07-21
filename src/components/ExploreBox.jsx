@@ -1,13 +1,18 @@
 import { mobile } from '../responsive'
 import { mobile2 } from '../responsive'
 import { mobile3 } from '../responsive'
+import { mobile9 } from '../responsive'
+import { mobile10 } from '../responsive'
+import { mobile6 } from '../responsive'
+import { mobile8 } from '../responsive'
 import React from 'react'
 import styled from 'styled-components'
 import ExploreBoxes from '../components/ExploreBoxes'
 
 const Container = styled.div`
 background-color:#1E1E1E;
-padding:50px;
+padding:20px;
+${mobile3({display:"none"})}
 
 `
 
@@ -18,6 +23,8 @@ font-weight: 700;
 font-size: 60.0775px;
 text-align:center;
 font-family:'syne';
+${mobile9({fontSize:"50px",padding:"10px"})}
+${mobile2({fontSize:"40px",padding:"5px",fontWeight:"500"})}
 `
 
 const Wrapper = styled.div`
@@ -42,10 +49,13 @@ ${mobile3({marginTop:"70px"})}
 
 const Image = styled.img`
 height:20vh;
-// z-index:3;
-${mobile({height:"40vh"})}
-${mobile2({height:"35vh"})}
-${mobile3({height:"30vh",width:"25vh"})}
+
+
+${mobile10({height:"15vh",width:"20vh"})}
+${mobile6({height:"10vh",width:"15vh"})}
+${mobile2({display:"flex",marginRight:"auto",marginLeft:"auto"})}
+
+
 
 
 `
@@ -55,7 +65,7 @@ const InfoContainer = styled.div`
 `
 const Desc =styled.p`
 
-
+font-weight:700;
 width:70%;
 color: #AFAFAF;
 font-family: 'inter';
@@ -63,10 +73,12 @@ font-style: normal;
 font-weight: 400;
 font-size: 22px;
 text-align:center;
+${mobile10({fontSize:"18px",width:"90%",fontWeight:"700"})}
+${mobile6({fontSize:"16px",width:"90%",fontWeight:"700"})}
+${mobile({fontSize:"16px",width:"90%",fontWeight:"700"})}
+${mobile2({fontSize:"15px",padding:"5px",fontWeight:"700"})}
+${mobile2({display:"none"})}
 
-${mobile({fontSize:"15px",padding:"10px",width:"100%"})}
-${mobile({fontSize:"14px",padding:"10px",width:"100%"})}
-${mobile({fontSize:"0.71rem",padding:"10px",width:"100%",padding:"5px"})}
 `
 
 const ImageContainer = styled.div`
@@ -78,7 +90,11 @@ color: #AFAFAF;
 text-align:center;
 margin-top:-3vh;
 font-weight:500;
+${mobile10({marginTop:"-2vh"})}
+${mobile({fontSize:"12px",width:"100%",marginTop:"-1vh"})}
+${mobile2({fontSize:"12px",width:"100%",marginTop:"1vh"})}
 `
+
 
 
 
