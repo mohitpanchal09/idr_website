@@ -10,7 +10,7 @@ import Tape1 from '../components/Tape1'
 import Tape2 from '../components/Tape2'
 import Industries from '../components/Industries'
 import Beginning from '../components/Beginning'
-import Marq from '../components/Marq'
+
 import ExploreBox from '../components/ExploreBox'
 import ExploreBoxes from '../components/ExploreBoxes'
 import Products from '../components/Products'
@@ -21,7 +21,7 @@ import Products from '../components/Products'
 const Home2 = () => {
   return (
     <div>
-      {/* <Marq /> */}
+      
         <Navbar />
         <Beginning />
         <ExploreBox />
