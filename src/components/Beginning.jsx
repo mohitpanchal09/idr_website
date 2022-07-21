@@ -4,20 +4,22 @@ import styled from 'styled-components'
 import { mobile } from '../responsive'
 import { mobile2 } from '../responsive'
 import { mobile3 } from '../responsive'
+import { mobile8 } from '../responsive'
 
 
 const Container = styled.div`
 background-color:#1E1E1E;
-// display:flex;
-align-items:center;
-justify-content:center;;
+display:flex;
+flex-wrap:wrap;
+// align-items:center;
+// justify-content:center;
 
 
 
 `
 const Wrapper1 = styled.div`
 display:flex;
-
+flex-wrap:wrap;
 align-items:center;
 justify-content:center;
 overflow:hidden;
@@ -39,33 +41,28 @@ const ImageContainer = styled.div`
 const Image = styled.img`
 height:30vh;
 padding:10vh;
-${mobile({height:"40vh"})}
-${mobile2({height:"35vh"})}
-${mobile3({height:"30vh",width:"25vh"})}
-
-
-`
-const Image2 = styled.img`
-height:50vh;
-display:flex;
-${mobile({marginBottom:"50px",height:"30vh"})}
-
+${mobile({height:"25vh",padding:"5vh"})}
 ${mobile2({height:"25vh"})}
-
-${mobile3({height:"18vh"})}
+${mobile3({display:"none"})}
 
 `
+
 const InfoContainer = styled.div`
-// margin:0px 50px;
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
 
 `
 const Title = styled.div`
 color: #AFAFAF;
 font-size:44px;
-line-height: 250%;
+line-height: 150%;
 
 
 font-weight:600;
+${mobile2({fontSize:"28px"})}
+${mobile8({fontSize:"24px"})}
 `
 const Tape = styled.div`
 background-color:black;
@@ -79,11 +76,9 @@ font-family: 'inter';
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
-// text-align:center;
+text-align:center;
+${mobile2({fontSize:"15px"})}
 
-${mobile({fontSize:"15px",padding:"10px",width:"100%"})}
-${mobile({fontSize:"14px",padding:"10px",width:"100%"})}
-${mobile({fontSize:"0.71rem",padding:"10px",width:"100%",padding:"5px"})}
 `
 const Desc1 = styled.p`
 
