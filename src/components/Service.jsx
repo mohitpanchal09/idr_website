@@ -10,11 +10,10 @@ background-color: #1E1E1E;
 `
 
 const Info = styled.div`
-// opacity:0;
-font-weight: 200;
+font-weight: 500;
 color:white;
 text-align:center;
-margin:20px;
+margin:10px;
 position:absolute;
 bottom:0;
 // left:0;
@@ -28,7 +27,7 @@ cursor:pointer;
 font-size: 15.7122px;
 line-height: 150%;
 ${mobile8({fontSize:"12px"})}
-${mobile4({fontSize:"10px"})}
+${mobile4({fontSize:"12px"})}
 `
 
 ;
@@ -47,7 +46,7 @@ const Container = styled.div`
     
     ${mobile({minWidth:"170px",height:"11rem"})}
     ${mobile8({minWidth:"150px",height:"10rem",margin:"10px 16px"})}
-    ${mobile4({minWidth:"120px",height:"8rem",margin:"10px 16px"})}
+    ${mobile4({minWidth:"140px",height:"8rem",margin:"10px 16px"})}
     &:hover{
       transition: all 0.5s ease;
       transform: scale(1.1);
@@ -61,6 +60,7 @@ const  Image = styled.img`
     z-index:2;
     ${mobile({height:"62%"})}
     ${mobile({height:"58%"})}
+    ${mobile4({height:"66%"})}
   //   &:hover{
   //     transition: all 0.5s ease;
   //     transform: scale(1.2);
