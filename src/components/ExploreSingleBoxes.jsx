@@ -42,7 +42,7 @@ const Container = styled.div`
     position:relative;
     border-radius:8%;
     
-    ${mobile({minWidth:"170px",height:"11rem"})}
+    ${mobile({minWidth:"150px",height:"9rem"})}
     ${mobile8({minWidth:"150px",height:"10rem",margin:"10px 16px"})}
     ${mobile4({minWidth:"120px",height:"8rem",margin:"10px 16px"})}
     &:hover{
@@ -56,13 +56,9 @@ const Container = styled.div`
 const  Image = styled.img`
     height:40%;
     z-index:2;
-    ${mobile({height:"62%"})}
-    ${mobile({height:"58%"})}
-  //   &:hover{
-  //     transition: all 0.5s ease;
-  //     transform: scale(1.2);
-  // }
+    ${mobile({height:"30%"})}
     
+  
 `
 
 const Icon = styled.div`
