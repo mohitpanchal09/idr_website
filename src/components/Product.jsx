@@ -2,7 +2,7 @@ import { ShoppingCartOutlined , SearchOutlined , FavoriteBorderOutlined } from '
 import React from 'react'
 import styled from 'styled-components';
 import { popularDrones } from '../data';
-import { mobile } from '../responsive'
+import { mobile, mobile3 } from '../responsive'
 import { mobile8 } from '../responsive'
 import { mobile4 } from '../responsive'
 import CircleIcon from '@mui/icons-material/Circle';
@@ -49,7 +49,7 @@ const Container = styled.div`
     box-shadow: 0px 10.2571px 12.4551px rgba(0, 0, 0, 0.25);
     
     ${mobile({minWidth:"170px",height:"11rem"})}
-    ${mobile8({minWidth:"150px",height:"10rem",margin:"10px 16px"})}
+    ${mobile8({minWidth:"110px",height:"12rem",margin:"10px 40px"})}
     ${mobile4({minWidth:"120px",height:"8rem",margin:"10px 16px"})}
     &:hover{
       transition: all 0.5s ease;
@@ -63,6 +63,8 @@ const Heading = styled.p`
 font-size:30px;
 font-weight:700;
 line-height:150%;
+${mobile8({fontSize:"25px"})}
+${mobile3({fontSize:"20px"})}
 `
 
 const  Image = styled.img`
@@ -77,7 +79,8 @@ const Desc = styled.div`
 display:flex;
 align-items:center;
 font-size:14px;
-
+font-weight:400;
+color:lightgray;
 
 
 `
