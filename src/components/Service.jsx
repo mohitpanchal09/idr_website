@@ -38,14 +38,21 @@ const Container = styled.div`
     min-width:280px;
     height:15.5rem;
     display:flex;
+    transition: all 0.5s ease;
     // align-items:center;
     justify-content:center;
     background-color: rgba(0, 0, 0, 0.17);;
     position:relative;
     border-radius:8%;
+    
     ${mobile({minWidth:"170px",height:"11rem"})}
     ${mobile8({minWidth:"150px",height:"10rem",margin:"10px 16px"})}
     ${mobile4({minWidth:"120px",height:"8rem",margin:"10px 16px"})}
+    &:hover{
+      transition: all 0.5s ease;
+      transform: scale(1.1);
+  }
+    
     
 `;
 
@@ -54,6 +61,10 @@ const  Image = styled.img`
     z-index:2;
     ${mobile({height:"62%"})}
     ${mobile({height:"58%"})}
+  //   &:hover{
+  //     transition: all 0.5s ease;
+  //     transform: scale(1.2);
+  // }
     
 `
 
