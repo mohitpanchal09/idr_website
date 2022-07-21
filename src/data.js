@@ -72,3 +72,48 @@ export const popularIndustry = [
 
   
 
+
+export const popularBoxes = [
+  {
+    id:1,
+    img:"https://cdn.discordapp.com/attachments/891025496601661504/999560745182318593/unknown.png",
+    title:"LAW ENFORCEMENT",
+  },
+  {
+    id:2,
+    img:"https://cdn.discordapp.com/attachments/891025496601661504/999574636796846120/unknown.png",
+    title:"MILITARY ESPIONAGE",
+  },
+  {
+    id:3,
+    img:"https://cdn.discordapp.com/attachments/891025496601661504/999574678945415178/unknown.png",
+    title:"LOGISCTICS",
+  },
+  {
+    id:4,
+    img:"https://cdn.discordapp.com/attachments/891025496601661504/999574753423659098/unknown.png",
+    title:"GEO MAPPING",
+  },
+ 
+
+]
+
+
+
+export const popularDrones = [
+  {
+    id:1,
+    heading:"AGOCHAR MK-1",
+    img:"https://cdn.discordapp.com/attachments/891025496601661504/999588478830514186/unknown.png",
+    title:["40 Minutes Endurance","AUTONOMUS MISSION UPTO 10KM","100% INDIGENOUSLY DEVELOPED BODY PARTS"],
+  },
+  {
+    id:2,
+    heading:"DOOT MK-1",
+    img:"https://media.discordapp.net/attachments/891025496601661504/999588602080137216/unknown.png",
+    title:["MILITARY ESPIONAGE","COMPACT SIZE","100% INDIGENOUSLY DEVELOPED BODY PARTS"],
+  },
+  
+ 
+
+]
