@@ -1,5 +1,4 @@
 
-import Marquee from "react-fast-marquee";
 import React from 'react'
 import styled from 'styled-components'
 import { mobile } from '../responsive'
