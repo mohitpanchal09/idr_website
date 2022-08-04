@@ -3,7 +3,6 @@ import React from 'react'
 // import Features from '../components/Features'
 import Navbar from '../components/Navbar'
 // import Slider from '../components/Slider'
-
 import Newsletter from '../Newsletter'
 import Footer from '../components/Footer'
 import Services from '../components/Services'
@@ -16,8 +15,8 @@ import NewSlider from '../components/NewSlider'
 // import ExploreBox from '../components/ExploreBox'
 // import ExploreBoxes from '../components/ExploreBoxes'
 import Products from '../components/Products'
-// import AOS from "aos";
-// import "aos/dist/aos.css"
+import AOS from "aos";
+import "aos/dist/aos.css"
 
 // import Projects from '../components/Projects/Projects'
 
@@ -25,9 +24,9 @@ import Products from '../components/Products'
 
 const Home2 = () => {
 
-//   AOS.init({
-//     duration:2000
-//   })
+  AOS.init({
+    duration:2000
+  })
   return (
     <div>
         
