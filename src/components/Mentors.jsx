@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import { mentorsItems} from '../data';
 import Mentor from './Mentor';
 import { mobile8 } from '../responsive'
-import AOS from "aos";
-import "aos/dist/aos.css"
+// import AOS from "aos";
+// import "aos/dist/aos.css"
 import { mobile4 } from '../responsive'
 // import Service from './Service';
 const Container=styled.div`
@@ -34,9 +34,9 @@ padding:50px 0px;
 `
 
 function Mentors() {
-  AOS.init({
-    duration:2000
-  })
+//   AOS.init({
+//     duration:2000
+//   })
   return (
     <Wrapper >
         <Title>Mentors</Title>
