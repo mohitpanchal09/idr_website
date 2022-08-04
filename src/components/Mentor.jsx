@@ -3,7 +3,10 @@ import React from 'react'
 import styled from 'styled-components';
 import { popularProducts } from '../data';
 import { mobile } from '../responsive'
+import { mobile10 } from '../responsive'
 import { mobile8 } from '../responsive'
+// import { mobile4 } from '../responsive';
+import { mobile2 } from '../responsive';
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { mobile4 } from '../responsive'
@@ -15,7 +18,7 @@ background-color: #f5fafd;
 const Info = styled.div`
 opacity:0;
 width:100%;
-font-weight:700;
+font-weight:900;
 text-align:center;
 height:25%;
 position:absolute;
@@ -45,6 +48,9 @@ border-radius:7%;
 background-color: #f5fbfd;
 position:relative;
 
+    ${mobile8({minWidth:"100px",height:"13rem",margin:"10px 10px"})}
+    ${mobile4({minWidth:"80px",height:"10rem",margin:"10px 10px"})}
+    ${mobile4({margin:"10px 10px"})}
 &:hover ${Info}{
     opacity:1;
    
@@ -58,28 +64,28 @@ const  Image = styled.img`
     display:flex;
     margin-top:auto;
     margin-bottom:auto;
-    ${mobile({height:"62%"})}
-    ${mobile({height:"58%"})}
-    ${mobile4({height:"66%"})}
-  //   &:hover{
-  //     transition: all 0.5s ease;
-  //     transform: scale(1.2);
-  // }
+    ${mobile8({height:"40%"})}
+    transition: all 0.5s ease;
+    ${mobile4({height:"50%"})}
+    &:hover{
+      transition: all 0.5s ease;
+      transform: scale(1.1);
+  }
     
 `
 
 const Icon = styled.div`s
-// width:40px;
-// height:40px;
-// border-radius:50%;
 
-// background-color: white;
+font-weight:900;
+
 display:flex;
 align-items:center;
 justify-content:center;
 margin:10px;
 transition:all 0.5s ease;
 bottom:0;
+line-height:80%;
+${mobile4({fontSize:"12px",lineHeight:"50%"})}
 color:black;
 &:hover{
     background-color:#e9f5f;
@@ -99,12 +105,12 @@ position:absolute;
 
 `
 
-const Service = ({item}) => {
+const Mentor = ({item}) => {
   AOS.init()
   return (
     
     <Container data-aos={"fade-up"}  aos_offset="100">
-        <Circle />
+        {/* <Circle /> */}
         <Image  src={item.img} />
         <Info >
         <Icon>
@@ -124,4 +130,4 @@ const Service = ({item}) => {
   )
 }
 
-export default Service;
+export default Mentor;
