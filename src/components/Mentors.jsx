@@ -1,12 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
-import { mentorsItems, popularProducts } from '../data';
+import { mentorsItems} from '../data';
 import Mentor from './Mentor';
 import { mobile8 } from '../responsive'
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { mobile4 } from '../responsive'
-import Service from './Service';
+// import Service from './Service';
 const Container=styled.div`
     padding:0px;
     display:flex;
