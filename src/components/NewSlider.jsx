@@ -2,8 +2,8 @@ import AliceCarousel from 'react-alice-carousel';
 import "react-alice-carousel/lib/alice-carousel.css";
 import styled from 'styled-components';
 import React from 'react'
-import image1 from '../img/img1.png'
-import image2 from '../img/img2.png'
+import image1 from '../img1.png'
+import image2 from '../img2.png'
 import { mobile, mobile8 } from '../responsive';
 const Container = styled.div`
 display:flex;
