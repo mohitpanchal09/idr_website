@@ -1,19 +1,12 @@
-import { ShoppingCartOutlined , SearchOutlined , FavoriteBorderOutlined } from '@material-ui/icons';
 import React from 'react'
 import styled from 'styled-components';
-import { popularProducts } from '../data';
-import { mobile } from '../responsive'
-import { mobile10 } from '../responsive'
+
 import { mobile8 } from '../responsive'
-// import { mobile4 } from '../responsive';
-import { mobile2 } from '../responsive';
+
 import AOS from "aos";
 import "aos/dist/aos.css"
 import { mobile4 } from '../responsive'
-import AliceCarousel from 'react-alice-carousel';
-const Wrapper = styled.div`
-background-color: #f5fafd;
-`
+
 
 const Info = styled.div`
 opacity:0;
