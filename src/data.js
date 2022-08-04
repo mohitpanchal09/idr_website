@@ -117,3 +117,64 @@ export const popularDrones = [
  
 
 ]
+
+
+export const mentorsItems = [
+  {
+      id:1,
+      img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+      name:"Mayank",
+  designation:"Founder",
+      
+  },
+  {
+      id:2,
+      img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+      name:"Mayank",
+  designation:"Founder",
+      
+  },
+  {
+      id:3,
+      img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+      name:"Mayank",
+  designation:"Founder",
+      
+  },
+  {
+    id:4,
+    img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+    name:"Mayank",
+  designation:"Founder",
+    
+},
+{
+  id:5,
+  img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+  name:"Mayank",
+  designation:"Founder",
+  
+},
+{
+  id:6,
+  img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+  name:"Mayank",
+  designation:"Founder",
+  
+},
+{
+  id:7,
+  img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+  name:"Mayank",
+  designation:"Founder",
+  
+},
+{
+  id:8,
+  img:"https://cdn.discordapp.com/attachments/891025496601661504/1004444876835917860/unknown.png",
+  name:"Mayank",
+  designation:"Founder",
+  
+},
+
+];
