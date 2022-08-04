@@ -3,6 +3,7 @@ import React from 'react'
 // import Features from '../components/Features'
 import Navbar from '../components/Navbar'
 // import Slider from '../components/Slider'
+
 import Newsletter from '../Newsletter'
 import Footer from '../components/Footer'
 import Services from '../components/Services'
