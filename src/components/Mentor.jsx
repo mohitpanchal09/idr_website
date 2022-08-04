@@ -3,8 +3,8 @@ import styled from 'styled-components';
 
 import { mobile8 } from '../responsive'
 
-import AOS from "aos";
-import "aos/dist/aos.css"
+// import AOS from "aos";
+// import "aos/dist/aos.css"
 import { mobile4 } from '../responsive'
 
 
@@ -102,7 +102,7 @@ const Mentor = ({item}) => {
   AOS.init()
   return (
     
-    <Container data-aos={"fade-up"}  aos_offset="100">
+    <Container >
         {/* <Circle /> */}
         <Image  src={item.img} />
         <Info >
