@@ -15,8 +15,8 @@ import NewSlider from '../components/NewSlider'
 // import ExploreBox from '../components/ExploreBox'
 // import ExploreBoxes from '../components/ExploreBoxes'
 import Products from '../components/Products'
-import AOS from "aos";
-import "aos/dist/aos.css"
+// import AOS from "aos";
+// import "aos/dist/aos.css"
 
 // import Projects from '../components/Projects/Projects'
 
@@ -24,9 +24,9 @@ import "aos/dist/aos.css"
 
 const Home2 = () => {
 
-  AOS.init({
-    duration:2000
-  })
+//   AOS.init({
+//     duration:2000
+//   })
   return (
     <div>
         
