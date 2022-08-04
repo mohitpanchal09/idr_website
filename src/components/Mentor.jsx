@@ -99,7 +99,7 @@ position:absolute;
 `
 
 const Mentor = ({item}) => {
-  AOS.init()
+//   AOS.init()
   return (
     
     <Container >
